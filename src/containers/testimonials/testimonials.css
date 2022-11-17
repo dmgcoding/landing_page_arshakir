@@ -1,0 +1,134 @@
+.lp__testimonials{
+    width: 100%;
+    margin: 80px 0px;
+}
+
+.lp__testimonials__container{
+    width: 100%;
+    padding: 0px 116px;
+}
+
+.lp__testimonials__container-titles{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.lp__testimonials__container-titles-title{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: var(--purple);
+    margin: 10px;
+}
+
+.lp__testimonials__container-titles-heading{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.03em;
+    color: var(--black);
+    margin: 0;
+}
+
+.lp__testimonials__container-tbox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lp__testimonials__container-tbox__imgbox{
+    width: 50%;
+    height: auto;
+    position: relative;
+}
+
+.lp__testimonials__container-tbox__imgbox-p1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30%;
+    z-index: 1;
+}
+
+.lp__testimonials__container-tbox__imgbox-img{
+    position: relative;
+    z-index: 2;
+    padding: 13%;
+}
+
+.lp__testimonials__container-tbox__imgbox-img img{
+    width: 90%;
+    height: auto;
+}
+
+.lp__testimonials__container-tbox__imgbox-p2{
+    position: absolute;
+    right: 5%;
+    bottom: 0;
+    width: 20%;
+    z-index: 1;
+}
+
+.lp__testimonials__container-tbox__testibox{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.lp__testimonials__container-tbox__testibox-quote{
+    width: 30px;
+    margin-bottom: 20px;
+}
+
+.lp__testimonials__container-tbox__testibox-ratings{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.lp__testimonials__container-tbox__testibox-ratings img{
+    margin-right: 10px;
+    width: 20px;
+}
+
+.lp__testimonials__container-tbox__testibox-testimonial{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.02em;
+    color: var(--black);
+    margin: 25px 0px;
+}
+
+.lp__testimonials__container-tbox__testibox-author{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lp__testimonials__container-tbox__testibox-author-name{
+    margin: 0;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    color: var(--black);
+}
+
+.lp__testimonials__container-tbox__testibox-author-profession{
+    margin: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: var(--darkgrey);
+}
+
+.lp__testimonials__container-tbox__testibox-author-logo img{
+    height: 25px;
+    margin-right: 15px;
+}
