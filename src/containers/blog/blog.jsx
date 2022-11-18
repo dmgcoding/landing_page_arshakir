@@ -51,7 +51,7 @@ const articles = [
 
 const Blog = () => {
   return (
-    <div className="lp__blog">
+    <div id='blog' className="lp__blog">
       <div className="lp__blog__container">
         <div className="lp__blog__container-title">
           <p>

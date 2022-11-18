@@ -67,7 +67,7 @@ padding: 0;
 .lp__hero-box__container-content_form{
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: flex-start;
     padding: 20px 10px;
 }
 
@@ -101,18 +101,23 @@ padding: 0;
     border: none;
     margin-left: 25px;
     font-weight: 700;
+    cursor: pointer;
+}
+
+.lp__hero-box__container-content__form-button:hover{
+    opacity: 0.9;
 }
 
 .lp__hero-box__container-content__tick{
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
     margin-top: 20px;
 }
 
 .lp__hero-box__container-content__tick-tick{
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
     margin-right: 10px;
     font-weight: 400;

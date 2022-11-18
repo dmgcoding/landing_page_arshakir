@@ -58,14 +58,14 @@
 
 .lp__footer__container-menues__socials-iconbox{
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
 }
 
 .lp__footer__container-menues__socials-iconbox img{
     margin-right: 15px;
     height: 15px;
-
+    cursor: pointer;
 }
 .lp__footer__container-menues__company{
     width: 20%;
@@ -103,7 +103,7 @@
 
 .lp__footer__container-menues__newsletter-inputbox{
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
     width: 100%;
 }
@@ -134,4 +134,10 @@
     line-height: 26px;
     letter-spacing: -0.02em;
     border: none;
+    cursor: pointer;
 }
+
+.lp__footer__container-menues__newsletter-inputbox button:hover{
+    opacity: 0.8;
+}
+

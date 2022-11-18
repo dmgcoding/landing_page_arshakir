@@ -1,6 +1,6 @@
 .lp__testimonials{
     width: 100%;
-    margin: 80px 0px;
+    margin: 40px 0px;
 }
 
 .lp__testimonials__container{
@@ -85,7 +85,7 @@
 
 .lp__testimonials__container-tbox__testibox-ratings{
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
 }
 

@@ -1,6 +1,6 @@
 .lp__wwo{
     width: 100%;
-    margin: 80px 0px;
+    padding: 80px 0px;
 }
 
 .lp__wwo__container{
@@ -28,7 +28,7 @@
 
 .lp__wwo__container-box1__iconbox{
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -56,7 +56,7 @@
 }
 
 .lp__wwo__container-box2{
-    margin: 30px 0px;
+    margin: 80px 0px;
     display: flex;
     justify-content: space-around;
     align-items: center;

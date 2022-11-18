@@ -32,7 +32,7 @@
 
 .g__baexcerpt-content__article__details{
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
     margin: 0;
 }

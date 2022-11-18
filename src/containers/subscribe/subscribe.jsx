@@ -3,7 +3,7 @@ import './subscribe.css';
 
 const Subscribe = () => {
   return (
-    <div className="lp__subscribe">
+    <div id="subscribe" className="lp__subscribe">
       <div className="lp__subscribe__container">
         <div className="lp__subscribe__container-content">
           <p className="lp__subscribe__container-content-title">

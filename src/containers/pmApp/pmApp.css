@@ -1,7 +1,14 @@
 .lp__app{
     width: 100%;
-    padding: 120px 0px;
+    padding: 180px 0px;
     background-color: var(--bglight);
+    clip-path: url("#pmAppClip");
+}
+
+.lp__app svg{
+    width: auto;
+    height: auto;
+    resize: both;
 }
 
 .lp__app__container{
@@ -63,6 +70,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .lp__app__container-buttons-playstore{
@@ -78,6 +86,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .lp__app__container-buttons button{
     margin: 15px;

@@ -1,10 +1,23 @@
 .lp__team{
     width: 100%;
     margin: 100px 0px;
+    padding-bottom: 25vw!important;
+    position: relative;
 }
 
 .lp__team-bg{
     z-index: 0;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 40px;
+    padding: 0px 116px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.lp__team-bg img{
+    width: 100%;
 }
 
 .lp__team-container{

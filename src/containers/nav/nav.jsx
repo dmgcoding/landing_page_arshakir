@@ -5,15 +5,15 @@ import './nav.css'
 
 const Nav = () => {
   return (
-    <div className="lp__nav__container">
+    <div id='nav' className="lp__nav__container">
       <nav className="lp__nav__container__box">
         <img src={logo} alt="logo" className="lp__nav__container__box-logo" />
         <div className="lp__nav__container__box-menu">
           <ul>
-            <a href=""><li>Product</li></a>
-            <a href=""><li>Template</li></a>
-            <a href=""><li>Blog</li></a>
-            <a href=""><li>Pricing</li></a>
+            <a href="#pmapp"><li>Product</li></a>
+            <a href="#team"><li>Template</li></a>
+            <a href="#blog"><li>Blog</li></a>
+            <a href="#subscribe"><li>Pricing</li></a>
           </ul>
         </div>
         <div className="lp__nav__container__box-buttons">

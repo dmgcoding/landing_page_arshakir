@@ -5,7 +5,7 @@ import './hero.css';
 
 const Hero = () => {
   return (
-    <div className="lp__hero">
+    <div id='hero' className="lp__hero">
       <div className="lp__hero-bgpattern">
         <img src={bg_curve} alt="" />
       </div>
