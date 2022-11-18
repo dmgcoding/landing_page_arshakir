@@ -1,0 +1,137 @@
+.lp__footer{
+    width: 100%;
+}
+
+.lp__footer__container{
+    padding: 50px 150px;
+}
+
+.lp__footer__container-hr{
+    width: 100%;
+    height: 2px;
+    background-color: var(--darkgrey);
+    opacity: 0.5;
+    border: none;
+    border-radius: 50px;
+}
+
+.lp__footer__container-credits{
+    padding: 30px;
+    text-align: center;
+}
+
+.lp__footer__container-credits p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+    color: var(--darkgrey);
+}
+
+.lp__footer__container-menues{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 80px;
+}
+
+.lp__footer__container-menues__socials{
+    margin: 0px;
+    width: 24%;
+}
+
+.lp__footer__container-menues-title{
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    color: var(--black);
+}
+
+.lp__footer__container-menues-para{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    color: var(--darkgrey);
+}
+
+.lp__footer__container-menues__socials-iconbox{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.lp__footer__container-menues__socials-iconbox img{
+    margin-right: 15px;
+    height: 15px;
+
+}
+.lp__footer__container-menues__company{
+    width: 20%;
+}
+
+.lp__footer__container-menues__company ul li{
+    margin-top: 12px;
+}
+
+.lp__footer-g-listitem{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--darkgrey);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.lp__footer__container-menues__resources{
+    width: 20%;
+}
+
+.lp__footer__container-menues__newsletter{
+    width: 30%;
+}
+
+.lp__footer__container-menues__resources li{
+    margin-top: 12px;
+}
+
+.lp__footer__container-menues__newsletter li{
+    margin-top: 12px;
+}
+
+.lp__footer__container-menues__newsletter-inputbox{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+}
+
+.lp__footer__container-menues__newsletter-inputbox input{
+    flex: auto;
+    outline: none;
+    border: none;
+    background-color: rgb(216, 216, 216);
+    opacity: 0.5;
+    padding: 15px 10px;
+}
+
+.lp__footer__container-menues__newsletter-inputbox input::placeholder{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+    color: black;
+}
+
+.lp__footer__container-menues__newsletter-inputbox button{
+    padding: 9px 20px;
+    background-color: var(--lightblue);
+    color: var(--bgwhite);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+    border: none;
+}

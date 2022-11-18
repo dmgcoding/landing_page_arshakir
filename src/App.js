@@ -1,5 +1,5 @@
 import './App.css';
-import {Blog, Brands, CTO, Hero, Nav, PMApp, Team, Testimonials, WhatWeOffer, WhyHireUs} from './containers';
+import {Blog, Brands, CTO, Footer, Hero, Nav, PMApp, Subscribe, Team, Testimonials, WhatWeOffer, WhyHireUs} from './containers';
 
 function App() {
   return (
@@ -14,6 +14,8 @@ function App() {
       <Testimonials />
       <PMApp />
       <Blog />
+      <Subscribe />
+      <Footer />
     </div>
   );
 }
